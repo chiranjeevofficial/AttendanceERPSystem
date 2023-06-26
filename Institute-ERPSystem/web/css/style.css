@@ -3,32 +3,52 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background:linear-gradient(to right, #907dee,#583aec);
+
+body {
+    width: 100%;
+    height: 100vh;
 }
 
-.row{
-    height:100vh;
-    width:100%;
+p {
+    text-transform: capitalize;
+    font-size:4rem;
+    text-align: center;
+    text-shadow: 0 0 10px #000;
 }
+
+.row {
+    height: 100vh;
+    width: 100%;
+}
+
 .login-form form label {
     font-size: 1.5rem;
     font-weight: bold;
 }
-.login-form form input{
-    padding-block:10px;
+
+.login-form form input {
+    padding-block: 10px;
+    border-color: #000;
+    transition: .2s linear;
+    border: none;
+    border-radius: none;
+    border-bottom: 1px solid #1B9CFC;
 }
+
 .login-form form input:focus {
     box-shadow: none;
-    border: 2px solid #999;
+    border-bottom: 2px solid #1b9cfc;
 }
 
 .login-form form .main-btn {
-    padding: 5px 30px;
+    padding: 10px 0;
+    width: 100%;
     color: #000;
     border-radius: 5px;
+    border: none;
     transition: .2s;
-    background-color: #000;
+    font-size: 1.2rem;
+    background-color: #1B9CFC;
     color: white;
 
 }
@@ -36,5 +56,18 @@ body{
 .login-form form .main-btn:hover {
     background-color: #ffffff;
     border: 2px solid #000;
-    color: #000;
+    color: #1B9CFC;
+}
+
+
+
+
+
+/* media css */
+
+@media screen and (max-width:1000px){
+    .top-image{
+        width:250px;
+        margin-block:50px;
+    }
 }
