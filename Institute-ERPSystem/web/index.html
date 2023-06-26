@@ -22,15 +22,14 @@
                         </div>
                     </div>
                     <div class="col-lg-5 login-form order-1">
-                        <form>
+                        <form action="RegistrationServlet" method="post">
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">User name</label>
-                                <input type="text" class="form-control" id="exampleInputusername"
-                                    aria-describedby="emailHelp">
+                                <input type="text" class="form-control" id="exampleInputusername" name="username" required aria-describedby="emailHelp">
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputPassword1" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1">
+                                <input type="password" class="form-control" id="exampleInputPassword1" name="password" required>
                             </div>
                             <div class="mb-3 form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
