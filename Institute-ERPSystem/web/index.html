@@ -24,25 +24,17 @@
                     </div>
                     <div class="col-lg-5 login-form order-1">
                         <form action="RegistrationServlet" method="post">
-                            <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">User Name</label>
-<<<<<<< HEAD
-                                <input type="text" class="form-control " id="exampleInputusername"
-=======
-                                <input type="text" class="form-control" id="exampleInputusername"
->>>>>>> 0cc0a6d37ec04272ace2bb2dbdf6a0b8bb1494e7
-                                    name="username" required aria-describedby="emailHelp" autocomplete="off"
-                                    placeholder="Enter the User name">
+                            <div class="form-floating mb-3">
+                                <input type="name" class="form-control" name="name" id="floatingInput"
+                                    placeholder="Enter the name" autocomplete="off" required>
+                                <label for="floatingInput">Name</label>
                             </div>
-                            <div class="mb-3">
-                                <label for="exampleInputPassword1" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1"
-<<<<<<< HEAD
-                                    name="password" autocomplete="off" required placeholder="Enter the Password">
-=======
-                                    name="password" autocomplete="off" placeholder="enter the password">
->>>>>>> 0cc0a6d37ec04272ace2bb2dbdf6a0b8bb1494e7
+                            <div class="form-floating mb-3">
+                                <input type="password" class="form-control" name="password" id="floatingInput"
+                                    placeholder="Enter the password" autocomplete="off" required>
+                                <label for="floatingInput">Password</label>
                             </div>
+
 
                             <button type="submit" class="main-btn my-4">Submit</button>
                         </form>
