@@ -11,7 +11,7 @@ body {
 
 p {
     text-transform: capitalize;
-    font-size:4rem;
+    font-size: 4rem;
     text-align: center;
     text-shadow: 0 0 10px #000;
 }
