@@ -9,6 +9,16 @@ body {
     height: 100vh;
 }
 
+<<<<<<< HEAD
+=======
+p {
+    text-transform: capitalize;
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 0 0 10px #000;
+}
+
+>>>>>>> 0cc0a6d37ec04272ace2bb2dbdf6a0b8bb1494e7
 .row {
     height: 100vh;
     width: 100%;
