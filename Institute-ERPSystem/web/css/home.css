@@ -3,17 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.header-wrapper{
-    background-color: black;
-}
 .header-wrapper .nav-item{
     padding:10px 40px;
     font-size: 1.4rem;
     transition: .2s linear;
 }
 .nav-item .nav-link {
-    color:#ffffff;
+    color:#090909;
 }
 .header-wrapper .nav-item:hover{
     background:#f87a04;
