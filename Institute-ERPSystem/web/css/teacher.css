@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.form-floating input:focus{
+ box-shadow:none;
+
+}
+.form-floating input{
+    border:1px solid #f87a04;
+}
+
+.form .main-btn{
+    padding: 10px 0;
+    width: 100%;
+    color: #000;
+    border-radius: 5px;
+    border: none;
+    transition: .2s;
+    font-size: 1.2rem;
+    border:2px solid #f87a04;
+    background-color:#ffff;
+
+}
+.form-select{
+    border:1px solid #f87a04;
+
+}
+.form-select:focus{
+    box-shadow: none;
+}
+.form .main-btn:hover {
+    background-color:#f87a04;;
+    border: 2px solid #f87a04;
+    color: #000;
+}

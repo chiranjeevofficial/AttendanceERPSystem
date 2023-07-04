@@ -25,11 +25,12 @@ body {
     transition: .2s linear;
     border: none;
     border-radius:0px;
-    border-bottom: 2px solid #1B9CFC;
+    border-bottom: 2px solid #f87a04;
 }
 
 .login-form form input:focus {
     box-shadow: none;
+    border-bottom: 2px solid #f87a04;
     
 }
 
@@ -41,14 +42,15 @@ body {
     border: none;
     transition: .2s;
     font-size: 1.2rem;
-    background-color: #1B9CFC;
-    color: white;
+    border:2px solid #f87a04;
+    background-color:#ffff;
+
 
 }
 
 .login-form form .main-btn:hover {
-    background-color: #ffffff;
-    border: 2px solid #1b9cfc;
+    background-color:#f87a04;;
+    border: 2px solid #f87a04;
     color: #000;
 }
 
