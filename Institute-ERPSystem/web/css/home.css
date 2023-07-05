@@ -1,12 +1,20 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 .header-wrapper .nav-item{
     padding:10px 40px;
     font-size: 1.4rem;
     transition: .2s linear;
+}
+.navbar{
+    padding:0px;
+    background:#dfe6e9;
 }
 .nav-item .nav-link {
     color:#090909;
@@ -25,4 +33,29 @@
 .dropdown-menu .dropdown-item:hover{
     background:#f87a04;
     
+}
+
+.main-section{
+    padding-inline:10px;
+    /* border:1px solid green; */
+    margin-block:20px;
+    background-image:url('../images/bg/bg.svg');
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size:auto;
+    height:70vh;
+    width:100%;
+
+}
+
+.main-heading h2{
+    /* border:1px solid green; */
+    font-size:4.5rem;
+    text-transform: capitalize;
+}
+
+.footer-section{
+    padding-block:20px;
+    background-color:#000;
+    color:#ffffff;
 }
