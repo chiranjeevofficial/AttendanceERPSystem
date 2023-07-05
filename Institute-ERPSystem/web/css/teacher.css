@@ -1,18 +1,25 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-.form-floating input:focus{
- box-shadow:none;
+.form-floating input:focus {
+    box-shadow: none;
 
 }
-.form-floating input{
-    border:1px solid #f87a04;
+
+.form-floating label{
+    font-size:1.2rem;
+}
+.form-floating input {
+    border:none;
+    border-radius:0px;
+    border-bottom: 2px solid #f87a04;
+
 }
 
-.form .main-btn{
+.form .main-btn {
     padding: 10px 0;
     width: 100%;
     color: #000;
@@ -20,19 +27,23 @@
     border: none;
     transition: .2s;
     font-size: 1.2rem;
-    border:2px solid #f87a04;
-    background-color:#ffff;
+    border: 2px solid #f87a04;
+    background-color: #ffff;
 
 }
-.form-select{
-    border:1px solid #f87a04;
+
+.form-select {
+    border: 1px solid #f87a04;
 
 }
-.form-select:focus{
+
+.form-select:focus {
     box-shadow: none;
 }
+
 .form .main-btn:hover {
-    background-color:#f87a04;;
+    background-color: #f87a04;
+    ;
     border: 2px solid #f87a04;
     color: #000;
 }

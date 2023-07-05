@@ -37,7 +37,6 @@
 
 .main-section{
     padding-inline:10px;
-    /* border:1px solid green; */
     margin-block:20px;
     background-image:url('../images/bg/bg.svg');
     background-repeat: no-repeat;
@@ -49,7 +48,6 @@
 }
 
 .main-heading h2{
-    /* border:1px solid green; */
     font-size:4.5rem;
     text-transform: capitalize;
 }
@@ -58,4 +56,22 @@
     padding-block:20px;
     background-color:#000;
     color:#ffffff;
+}
+
+
+
+
+
+/* here start media query */
+
+@media screen and (max-width:1200px){
+    .main-heading h2{
+        font-size:4rem;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .main-heading h2{
+        color:#f87a04;
+    }
 }
