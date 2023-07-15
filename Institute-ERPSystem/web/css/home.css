@@ -35,6 +35,22 @@
     
 }
 
+.username-section{
+    margin:0;
+    background-color:#f87a04;
+    padding:15px 30px 0;  
+}
+.username-section i{
+    color:#ffffff;
+    font-size:2.4rem;
+}
+.username-section p{
+    color:#ffffff;
+    font-size:1.3rem;
+    display:inline-block;
+    text-transform: capitalize;
+}
+
 .main-section{
     padding-inline:10px;
     margin-block:20px;
