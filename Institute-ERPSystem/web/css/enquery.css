@@ -13,10 +13,12 @@
 }
 .container form  div label{
     font-size:1.2rem;
+    margin:0;
 }
 
 .container form  div input,
 .container form div select{
+    border-radius: 0px;
     border:2px solid #f87a04;
 }
 

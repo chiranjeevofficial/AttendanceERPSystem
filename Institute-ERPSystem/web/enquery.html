@@ -7,6 +7,7 @@
     <title>Enquery</title>
     <link rel="icon" href="images/login/logo.png">
     <link rel="stylesheet" href="css/enquery.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 </head>
 
@@ -14,27 +15,27 @@
     <div class="container">
         <div class="row">
             <div class="col-12 heading">
-                <p class="mb-5 mt-2 text-center">New Enquery</p>
+                <p class="mb-5 mt-2 text-center" data-aos="flip-up">New Enquery</p>
             </div>
         </div>
     </div>
     <div class="container ">
         <form class="row g-3">
-            <div class="col-md-6">
-                <label for="inputnumber" class="form-label">Enquery no</label>
-                <input type="number" class="form-control" id="inputEmail4">
+            <div class="col-md-6 mb-4" data-aos="flip-up">
+                <label for="inputEnqueryNumber" class="form-label">Enquery no</label>
+                <input type="number" name="enqueryNumber" class="form-control" required>
             </div>
-            <div class="col-md-6">
-                <label for="inputdate" class="form-label">Date of Enquery</label>
-                <input type="Date" class="form-control" id="inputEmail4">
+            <div class="col-md-6 mb-4" data-aos="flip-up">
+                <label for="inputDateOfEnquery" class="form-label">Date of Enquery</label>
+                <input type="Date" class="form-control" name="dateOfEnquery" required>
             </div>
-            <div class="col-md-6">
-                <label for="inputname" class="form-label">Enquery by</label>
-                <input type="text" class="form-control" id="inputEmail4">
+            <div class="col-md-6 mb-4" data-aos="flip-up">
+                <label for="inputEnqueryBy" class="form-label">Enquery by</label>
+                <input type="text" class="form-control" name="enqueryBy" required>
             </div>
-            <div class="col-md-6">
-                <label for="inputState" class="form-label">Enquery method</label>
-                <select id="inputState" class="form-select">
+            <div class="col-md-6 mb-4" data-aos="flip-up">
+                <label for="inputEnqueryMethod" class="form-label">Enquery method</label>
+                <select id="inputEnqueryMethod" class="form-select">
                     <option selected>Choose</option>
                     <option>Direct</option>
                     <option>Internal</option>
@@ -42,34 +43,34 @@
                     <option>Exam</option>
                 </select>
             </div>
-            <div class="col-md-6">
-                <label for="inputName" class="form-label">Applicant Name</label>
-                <input type="text" class="form-control" id="inputEmail4">
+            <div class="col-md-6 mb-4" data-aos="flip-up">
+                <label for="inputStudentName" class="form-label">Applicant Name</label>
+                <input type="text" class="form-control" name="studentName" required>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 mb-4" data-aos="flip-up">
                 <label for="inputContectNumber" class="form-label">Contect no/ Whatsapp No</label>
-                <input type="number" class="form-control" id="inputPassword4">
+                <input type="number" class="form-control" name="studentContectNumber" required>
             </div>
-            <div class="col-md-6">
-                <label for="inputName" class="form-label">Gurdian Name</label>
-                <input type="text" class="form-control" id="inputEmail4">
+            <div class="col-md-6 mb-4" data-aos="flip-up">
+                <label for="inputGurdianName" class="form-label">Gurdian Name</label>
+                <input type="text" class="form-control" name="gurdianName" required>
             </div>
-            <div class="col-md-6">
-                <label for="inputContectNumber" class="form-label">Gurdian contect number</label>
-                <input type="number" class="form-control" id="inputPassword4">
+            <div class="col-md-6 mb-4" data-aos="flip-up">
+                <label for="inputGurdianContectNumber" class="form-label">Gurdian contect number</label>
+                <input type="number" class="form-control" name="gurdianContectNumber" required>
             </div>
-            <div class="col-md-6">
-                <label for="inputState" class="form-label">Gender</label>
-                <select id="inputState" class="form-select">
+            <div class="col-md-6 mb-4" data-aos="flip-up">
+                <label for="inputGender" class="form-label">Gender</label>
+                <select id="inputGender" class="form-select">
                     <option selected>Choose</option>
                     <option>Male</option>
                     <option>Female</option>
                     <option>Other</option>
                 </select>
             </div>
-            <div class="col-md-6">
-                <label for="inputState" class="form-label">Qulification</label>
-                <select id="inputState" class="form-select">
+            <div class="col-md-6 mb-4" data-aos="flip-up">
+                <label for="inputQulification" class="form-label">Qulification</label>
+                <select id="inputQulification" class="form-select">
                     <option selected>Choose</option>
                     <option>7th</option>
                     <option>8th</option>
@@ -80,9 +81,9 @@
                     <option>Graduate</option>
                 </select>
             </div>
-            <div class="col-md-6">
-                <label for="inputState" class="form-label">Course Intersted</label>
-                <select id="inputState" class="form-select">
+            <div class="col-md-6 mb-4" data-aos="flip-up">
+                <label for="inputCourse" class="form-label">Course Intersted</label>
+                <select id="inputCourse" class="form-select">
                     <option selected>Choose</option>
                     <option>iit</option>
                     <option>iit</option>
@@ -92,9 +93,9 @@
                     <option>iit</option>
                 </select>
             </div>
-            <div class="col-md-6">
-                <label for="inputState" class="form-label">Batch time intersted</label>
-                <select id="inputState" class="form-select">
+            <div class="col-md-6 mb-4" data-aos="flip-up">
+                <label for="inputBetchTime" class="form-label">Batch time intersted</label>
+                <select id="inputBetchTime" class="form-select">
                     <option selected>Choose</option>
                     <option>7am</option>
                     <option>8am</option>
@@ -104,9 +105,9 @@
                     <option>5pm</option>
                 </select>
             </div>
-            <div class="col-md-6">
-                <label for="inputState" class="form-label">place</label>
-                <select id="inputState" class="form-select">
+            <div class="col-md-6 mb-4" data-aos="flip-up">
+                <label for="inputPlace" class="form-label">Place</label>
+                <select id="inputplace" class="form-select">
                     <option selected>Choose</option>
                     <option>dhalwala</option>
                     <option>ganga nager</option>
@@ -116,19 +117,19 @@
                     <option>gumaniwala</option>
                 </select>
             </div>
-            <div class="col-12">
-                <label for="inputAddress" class="form-label">Remark</label>
-                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            <div class="col-12 mb-4" data-aos="flip-up">
+                <label for="inputRemark" class="form-label">Remark</label>
+                <input type="text" class="form-control">
             </div>
-            <div class="col-md-6">
-                <label for="inputState" class="form-label">Fee submit</label>
-                <select id="inputState" class="form-select">
+            <div class="col-md-6 mb-4" data-aos="flip-up">
+                <label for="inputFeeSubmit" class="form-label">Fee submit</label>
+                <select id="inputFeeSubmit" class="form-select">
                     <option selected>Choose</option>
                     <option>Yes</option>
                     <option>No</option>
                 </select>
             </div>
-            <div class="col-12 my-5">
+            <div class="col-12 mb-5">
                 <button type="submit" class="btn btn-primary w-100 main-btn">Submit</button>
             </div>
         </form>
@@ -137,6 +138,12 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 2000
+        });
+    </script>
 </body>
 
 </html>
