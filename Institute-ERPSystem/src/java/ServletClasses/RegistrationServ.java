@@ -1,6 +1,7 @@
 package ServletClasses;
 
 import jakarta.servlet.ServletException;
+import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -51,11 +52,13 @@ public class RegistrationServ extends HttpServlet {
                     out.println("<h2>" + "success.html" + "</h2>");
                     out.println("<h2>" + "username: " + username + "</h2>");
                     out.println("<h2>" + "password: " + password + "</h2>");
+                    out.println("<a href='/SuccessServ'>Go to Success Servlet</a>");
+                    //Cookie cookie = new Cookie("username", username);
+                    //res.addCookie(cookie);
                 } else {
                     // Invalid credentials, redirect to failure page or display error message
                     out.println("<h2>" + "failure.html" + "</h2>");
                 }
-
                 rs.close();
                 stmt.close();
                 con.close();

@@ -1,3 +1,7 @@
 Frond End - 
  - where user name input textfield name is: username
  - where password input textfield name is: password
+
+Changes by chiranjeev
+ - in index file username name input type change from name to text
+ - in index file username name input name change from name to username
