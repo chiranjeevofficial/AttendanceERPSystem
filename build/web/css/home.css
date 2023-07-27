@@ -1,0 +1,93 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.header-wrapper .nav-item{
+    padding:10px 40px;
+    font-size: 1.4rem;
+    transition: .2s linear;
+}
+.navbar{
+    padding:0px;
+    background:#dfe6e9;
+}
+.nav-item .nav-link {
+    color:#090909;
+}
+.header-wrapper .nav-item:hover{
+    background:#f87a04;
+}
+.dropdown-menu{
+    background-color: #000;
+}
+.dropdown-menu .dropdown-item{
+    padding:13px 70px;
+    font-size: 1.3rem; 
+    color:#ffffff;
+}
+.dropdown-menu .dropdown-item:hover{
+    background:#f87a04;
+    
+}
+
+.username-section{
+    margin:0;
+    background-color:#f87a04;
+    padding:15px 30px 0;  
+}
+.username-section i{
+    color:#ffffff;
+    font-size:2.4rem;
+}
+.username-section p{
+    color:#ffffff;
+    font-size:1.3rem;
+    display:inline-block;
+    text-transform: capitalize;
+}
+
+.main-section{
+    padding-inline:10px;
+    margin-block:20px;
+    background-image:url('../images/bg/bg.svg');
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size:auto;
+    height:70vh;
+    width:100%;
+
+}
+
+.main-heading h2{
+    font-size:4.5rem;
+    text-transform: capitalize;
+}
+
+.footer-section{
+    padding-block:20px;
+    background-color:#000;
+    color:#ffffff;
+}
+
+
+
+
+
+/* here start media query */
+
+@media screen and (max-width:1200px){
+    .main-heading h2{
+        font-size:4rem;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .main-heading h2{
+        color:#f87a04;
+    }
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.heading p{
+    font-size:2.5rem;
+    font-weight: bold;
+}
+.container form  div label{
+    font-size:1.2rem;
+    margin:0;
+}
+
+.container form  div input,
+.container form div select{
+    border-radius: 0px;
+    border:2px solid #f87a04;
+}
+
+.container form  div input:focus,
+.container form div select:focus{
+    box-shadow: none;
+}
+
+
+.container form div .main-btn {
+    padding: 10px 0;
+    width: 100%;
+    color: #000;
+    border-radius: 5px;
+    border: none;
+    transition: .2s;
+    font-size: 1.2rem;
+    border:2px solid #f87a04;
+    background-color:#ffff;
+    font-weight:bold;
+
+
+}
+.container form div .main-btn:hover {
+    background-color:#f87a04;;
+    border: 2px solid #f87a04;
+    color: #000;
+}
